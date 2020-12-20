@@ -56,7 +56,7 @@ INSERT INTO teachers(
     'Male',
     'full stack dev',
     '123456789',
-    'mabroorr@gmail.com',
+    'mabroorrrr123@gmail.com',
     'Computer Science',
     'CS-2019',
     'Intro to Database',
