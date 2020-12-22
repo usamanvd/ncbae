@@ -110,3 +110,33 @@ INSERT INTO students(
     'CS-2019',
     ''
 );
+INSERT INTO students(
+    roll_no,
+    student_name,
+    father_name,
+    gender,
+    course_type,
+    phone,
+    email,
+    student_address,
+    course_name,
+    start_yr,
+    end_yr,
+    course_code,
+    profile_pic
+    
+) VALUES(
+    '3144',
+    'Fatima',
+    'ali',
+    'Female',
+    'Weekend',
+    '039283288828',
+    'fatimaali321@gmail.com',
+    'multan cantt near company garden',
+    'commerce',
+    '2005',
+    '2009',
+    'CS-2019',
+    ''
+);
