@@ -16,7 +16,7 @@ CREATE TABLE teachers(
     id uuid DEFAULT uuid_generate_v4 (),
     teacher_name VARCHAR(35) NOT NULL,
     gender VARCHAR(8) NOT NULL CHECK(gender = 'Male' OR gender = 'Female' OR gender = 'Other'),
-    teacher_type VARCHAR(10) NOT NULL CHECK(teacher_type = 'Permanent' OR course_type = 'Visiting'),
+    teacher_type VARCHAR(10) NOT NULL CHECK(teacher_type = 'Permanent' OR teacher_type = 'Visiting'),
     qualification VARCHAR(150) NOT NULL,
     phone VARCHAR(20) UNIQUE NOT NULL,
     email VARCHAR(50) UNIQUE NOT NULL,
